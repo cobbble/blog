@@ -5,6 +5,7 @@ disqusShortname = ""
 paginate        = 6
 #SectionPagesMenu = "main"
 canonifyurls    = true
+publishDir      = "docs"
 
 [params]
   title       = "Chelme's Blog"
