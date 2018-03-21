@@ -6,14 +6,15 @@
 
 ## Theme Demo
 
-- [Sample Site](//eueung.github.io/hugo-casper-new/)
+- [telematika.org](https://telematika.org/)
+- sample site - [github pages](https://eueung.github.io/hugo-casper-two/)
 
 ## Installation
 
 Inside the folder of your Hugo site run:
 
     $ cd themes
-    $ git clone https://github.com/eueung/hugo-casper-new.git casper-new
+    $ git clone https://github.com/eueung/hugo-casper-two.git casper-two
 
 For more information read the official [setup guide](//gohugo.io/overview/installing/) of Hugo.
 
@@ -86,7 +87,8 @@ paginate        = 6
 
 Sample content structure is given in the `exampleSite` folder. Have fun!
 
-![Screenshot](https://raw.githubusercontent.com/eueung/hugo-casper-two/master/images/single.jpg)
+![Screenshot](https://raw.githubusercontent.com/eueung/hugo-casper-two/master/images/telematika1.jpg)
+![Screenshot](https://raw.githubusercontent.com/eueung/hugo-casper-two/master/images/telematika2.jpg)
 
 ## License
 
