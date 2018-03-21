@@ -19,10 +19,10 @@ publishDir      = "docs"
   customCSS = []
   RSSLink = ""
 
+  dribbble = "chelme"
   twitterName = "chelme_z"
   githubName = "chelme"
   linkedinName = "chelme"
-  mediumName = ""
 
   logo = "hugo-logo.png"
   orgName = "EM"
