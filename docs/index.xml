@@ -43,15 +43,6 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
     </item>
     
     <item>
-      <title>My First Post</title>
-      <link>/posts/my-first-post/</link>
-      <pubDate>Sat, 06 Jan 2018 14:49:40 +0800</pubDate>
-      
-      <guid>/posts/my-first-post/</guid>
-      <description>Hello World test</description>
-    </item>
-    
-    <item>
       <title>Getting Started with Hugo</title>
       <link>/post/getting-started-with-hugo/</link>
       <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>

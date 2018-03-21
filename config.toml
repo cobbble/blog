@@ -9,20 +9,19 @@ publishDir      = "docs"
 
 [params]
   title       = "Chelme's Blog"
-  subtitle    = "UI/UX"
+  subtitle    = "Chelme's Blog of UI/UX"
   copyright   = "© 2018"
 
   cover       = "img/blog-cover.jpg"
-  description = "Here is a description of your site."
+  description = "Chelme's blog of UI/UX."
   metaDescription = ""
   googleAnalytics = ""
   customCSS = []
   RSSLink = ""
 
-  twitterName = "faketryghost"
-  fbName = "fakeghost"
-  githubName = "eueung"
-  linkedinName = "eueung"
+  twitterName = "chelme_z"
+  githubName = "chelme"
+  linkedinName = "chelme"
   mediumName = ""
 
   logo = "hugo-logo.png"
@@ -62,6 +61,6 @@ publishDir      = "docs"
   weight = 99
 
 [[menu.main]]
-  name = "External"
-  url = "https://google.com/"
+  name = "Dribbble"
+  url = "https://dribbble.com/chelme"
   weight = 95
