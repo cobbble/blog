@@ -1,14 +1,14 @@
 baseurl         = "/"
 theme           = "casper-two"
-languageCode    = "en-US"
+languageCode    = "zh"
 disqusShortname = ""
 paginate        = 6
 #SectionPagesMenu = "main"
 canonifyurls    = true
 
 [params]
-  title       = "Hugo Casper Two"
-  subtitle    = "Port of Casper 2.x for Hugo"
+  title       = "Chelme's Blog"
+  subtitle    = "UI/UX"
   copyright   = "© 2018"
 
   cover       = "img/blog-cover.jpg"
