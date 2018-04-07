@@ -26,7 +26,9 @@ tags:
 ### 设计灵感及思路
 ![](/img/works/dueros/pic-2.png)
 ![](/img/works/dueros/pic-3.png)
-![](/img/works/dueros/pic-4.png)
+
+在原有VI形象上将线条加粗，为更好的表现波浪纹理，在深色背景下更凸显主体，小尺寸场景下识别度也高。
+
 ![](/img/works/dueros/pic-5.png)
 ![](/img/works/dueros/pic-6.png)
 ![](/img/works/dueros/cover.png)
