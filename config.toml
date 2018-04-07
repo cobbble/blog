@@ -8,8 +8,8 @@ canonifyurls    = true
 publishDir      = "docs"
 
 [params]
-  title       = "Chelme Zhao"
-  subtitle    = "Blog of UI/UX"
+  title       = "Chelme's Blog"
+  subtitle    = "Chelme's Blog"
   copyright   = "© 2017"
 
   cover       = "img/blog-cover.jpg"
@@ -24,10 +24,10 @@ publishDir      = "docs"
   githubName = "chelme"
   linkedinName = "chelme"
 
-  logo = "hugo-logo.png"
-  orgName = "EM"
-  orgWebsite = "https://www.telematika.org"
-  orgDescription = "Here is a description placeholder for your org"
+  logo = "logo.png"
+  orgName = "Cobbble"
+  orgWebsite = "http://www.cobbble.com"
+  orgDescription = "..."
 
   showSupport = true
 
@@ -35,7 +35,7 @@ publishDir      = "docs"
   authorAvatar = "chelme.png"
   authorLocation = "Beijing, China"
   authorWebsite = "https://dribbble.com/chelme"
-  authorDescription = "UI Designer"
+  authorDescription = "Designer"
 
   pageNotFoundTitle = "404 - Page not found"
 
