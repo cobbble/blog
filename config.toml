@@ -8,12 +8,12 @@ canonifyurls    = true
 publishDir      = "docs"
 
 [params]
-  title       = "Chelme's Blog"
-  subtitle    = "Chelme's Blog of UI/UX"
-  copyright   = "© 2018"
+  title       = "Chelme Zhao"
+  subtitle    = "Blog of UI/UX"
+  copyright   = "© 2017"
 
   cover       = "img/blog-cover.jpg"
-  description = "Chelme's blog of UI/UX."
+  description = "Chelme Zhao's Blog of UI/UX."
   metaDescription = ""
   googleAnalytics = ""
   customCSS = []
@@ -31,11 +31,11 @@ publishDir      = "docs"
 
   showSupport = true
 
-  author = "EM"
-  authorAvatar = "img/ghost-icon.png"
-  authorLocation = "Bandung, ID"
-  authorWebsite = "https://eueung.github.io"
-  authorDescription = "Your description here"
+  author = "Chelme"
+  authorAvatar = "chelme.png"
+  authorLocation = "Beijing, China"
+  authorWebsite = "https://dribbble.com/chelme"
+  authorDescription = "UI Designer"
 
   pageNotFoundTitle = "404 - Page not found"
 
@@ -51,8 +51,8 @@ publishDir      = "docs"
   weight = 200
 
 [[menu.main]]
-  name = "Go"
-  url = "/tags/golang/"
+  name = "Works"
+  url = "/categories/works/"
   weight = 100
 
 [[menu.main]]

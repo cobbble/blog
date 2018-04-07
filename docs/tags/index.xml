@@ -1,68 +1,50 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Chelme&#39;s Blog</title>
+    <title>Tags on Chelme Zhao</title>
     <link>/tags/</link>
-    <description>Recent content in Tags on Chelme&#39;s Blog</description>
+    <description>Recent content in Tags on Chelme Zhao</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <copyright>© 2018</copyright>
-    <lastBuildDate>Mon, 02 Jun 2014 00:00:00 +0000</lastBuildDate>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Sat, 07 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Development</title>
-      <link>/tags/development/</link>
-      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
+      <title>Dueros</title>
+      <link>/tags/dueros/</link>
+      <pubDate>Sat, 07 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Go</title>
-      <link>/tags/go/</link>
-      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/go/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Golang</title>
-      <link>/tags/golang/</link>
-      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/golang/</guid>
+      <guid>/tags/dueros/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
       <link>/tags/hugo/</link>
-      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Templates</title>
-      <link>/tags/templates/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>Logo</title>
+      <link>/tags/logo/</link>
+      <pubDate>Sat, 07 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/templates/</guid>
+      <guid>/tags/logo/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Themes</title>
-      <link>/tags/themes/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>Ux</title>
+      <link>/tags/ux/</link>
+      <pubDate>Sun, 05 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/themes/</guid>
+      <guid>/tags/ux/</guid>
       <description></description>
     </item>
     

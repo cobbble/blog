@@ -2,15 +2,11 @@
 title = "Getting Started with Hugo"
 description = ""
 tags = [
-    "go",
-    "golang",
     "hugo",
-    "development",
 ]
-date = "2014-06-02"
+date = "2017-11-01"
 categories = [
-    "Development",
-    "golang",
+    "hugo",
 ]
 nomenu = "main"
 image= "img/tags.jpg"
