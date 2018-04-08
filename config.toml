@@ -8,8 +8,8 @@ canonifyurls    = true
 publishDir      = "docs"
 
 [params]
-  title       = "Chelme's Blog"
-  subtitle    = "Chelme's Blog"
+  title       = "Cobbble"
+  subtitle    = "Chelme Zhao's Blog"
   copyright   = "© 2017"
 
   cover       = "img/blog-cover.jpg"
