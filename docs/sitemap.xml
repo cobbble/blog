@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>/post/articles/logo-design/</loc>
+    <lastmod>2017-11-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/articles/old-people/</loc>
     <lastmod>2017-11-05T00:00:00+00:00</lastmod>
   </url>
@@ -44,6 +49,18 @@
   <url>
     <loc>/tags/</loc>
     <lastmod>2018-04-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ui/</loc>
+    <lastmod>2017-11-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/ui/</loc>
+    <lastmod>2017-11-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
