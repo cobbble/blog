@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ui on Cobbble</title>
-    <link>/categories/ui/</link>
+    <link>http://cobbble.com/categories/ui/</link>
     <description>Recent content in Ui on Cobbble</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>© 2017</copyright>
     <lastBuildDate>Mon, 20 Nov 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/ui/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://cobbble.com/categories/ui/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>关于logo设计的二三言</title>
-      <link>/post/articles/logo-design/</link>
+      <link>http://cobbble.com/post/articles/logo-design/</link>
       <pubDate>Mon, 20 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/articles/logo-design/</guid>
+      <guid>http://cobbble.com/post/articles/logo-design/</guid>
       <description>介绍 IBM的创始人小沃森曾说过：Good Design is good business。毋容置疑，好的品牌设计能在受众心中留下好的印象，甚至会影响品牌的商业表现。
 但为什么这么多科技公司的 Logo 看起来都差不多？从 Google 到 Airbnb，从 Spotify 到 Pinterest，这些公司最初都使用了相对独特的特殊字体，随着品牌和服务的逐步成熟和扩大，最终他们的 Logo 都演变成为了极为相似的非衬线字体。不同的产品相似的 Logo，不禁疑问 Logo 到底要表达的是什么呢。
 在和这些科技公司有合作的设计机构的品牌专家探讨后，得出以下结论：

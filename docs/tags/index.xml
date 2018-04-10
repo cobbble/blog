@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Cobbble</title>
-    <link>/tags/</link>
+    <link>http://cobbble.com/tags/</link>
     <description>Recent content in Tags on Cobbble</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>© 2017</copyright>
     <lastBuildDate>Sat, 07 Apr 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://cobbble.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Dueros</title>
-      <link>/tags/dueros/</link>
+      <link>http://cobbble.com/tags/dueros/</link>
       <pubDate>Sat, 07 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/dueros/</guid>
+      <guid>http://cobbble.com/tags/dueros/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Logo</title>
-      <link>/tags/logo/</link>
+      <link>http://cobbble.com/tags/logo/</link>
       <pubDate>Sat, 07 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/logo/</guid>
+      <guid>http://cobbble.com/tags/logo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ui</title>
-      <link>/tags/ui/</link>
+      <link>http://cobbble.com/tags/ui/</link>
       <pubDate>Mon, 20 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/ui/</guid>
+      <guid>http://cobbble.com/tags/ui/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ux</title>
-      <link>/tags/ux/</link>
+      <link>http://cobbble.com/tags/ux/</link>
       <pubDate>Sun, 05 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/ux/</guid>
+      <guid>http://cobbble.com/tags/ux/</guid>
       <description></description>
     </item>
     

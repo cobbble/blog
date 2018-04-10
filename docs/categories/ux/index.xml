@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ux on Cobbble</title>
-    <link>/categories/ux/</link>
+    <link>http://cobbble.com/categories/ux/</link>
     <description>Recent content in Ux on Cobbble</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>© 2017</copyright>
     <lastBuildDate>Sun, 05 Nov 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/ux/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://cobbble.com/categories/ux/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>思考老年用户体验</title>
-      <link>/post/articles/old-people/</link>
+      <link>http://cobbble.com/post/articles/old-people/</link>
       <pubDate>Sun, 05 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/articles/old-people/</guid>
+      <guid>http://cobbble.com/post/articles/old-people/</guid>
       <description> 介绍 在互联网的产品中，吸引老年人这部分用户群体曾经是被认为是最后要考虑的事情。然而，老年用户群体持续不断增长，经常登录、注册和订阅。statista的统计显示，仅在美国境内，2016年就有64%的老年人在线，这个数字在2013年的时候只有4%。
 尽管数量在增长，老年用户群体在人口统计学中，仍然属于用户体验的不毛之地。如果用户体验师不将老年用户纳入考虑，便会疏远这整个群体，将是很大的损失。
 还记得去年iOS11的新UI发布，盼望已久的同时，网上的吐槽声也铺天盖地。最大的质疑就是UI界面看起来像老人机，然而用户体验证明了一切。 iOS11加大UI元素，使用颜色强调对比、大块的留白替代线条的分层，字号及字重的加大加粗都能感受到设计师们在坚持美感的同时也在努力为老年用户体验做更友好的UI设计。

@@ -3,81 +3,81 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/post/works/dueros/</loc>
+    <loc>http://cobbble.com/post/works/dueros/</loc>
     <lastmod>2018-04-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/articles/logo-design/</loc>
+    <loc>http://cobbble.com/post/articles/logo-design/</loc>
     <lastmod>2017-11-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/articles/old-people/</loc>
+    <loc>http://cobbble.com/post/articles/old-people/</loc>
     <lastmod>2017-11-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>http://cobbble.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>http://cobbble.com/</loc>
     <lastmod>2018-04-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/dueros/</loc>
+    <loc>http://cobbble.com/tags/dueros/</loc>
     <lastmod>2018-04-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/logo/</loc>
+    <loc>http://cobbble.com/tags/logo/</loc>
     <lastmod>2018-04-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>http://cobbble.com/post/</loc>
     <lastmod>2018-04-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>http://cobbble.com/tags/</loc>
     <lastmod>2018-04-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/ui/</loc>
-    <lastmod>2017-11-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/ui/</loc>
+    <loc>http://cobbble.com/tags/ui/</loc>
     <lastmod>2017-11-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/ux/</loc>
+    <loc>http://cobbble.com/categories/ui/</loc>
+    <lastmod>2017-11-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://cobbble.com/tags/ux/</loc>
     <lastmod>2017-11-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/ux/</loc>
+    <loc>http://cobbble.com/categories/ux/</loc>
     <lastmod>2017-11-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/works/</loc>
+    <loc>http://cobbble.com/categories/works/</loc>
     <lastmod>2018-04-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

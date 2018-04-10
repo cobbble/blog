@@ -1,4 +1,4 @@
-baseurl         = "/"
+baseurl         = "http://cobbble.com"
 title       = "Cobbble"
 theme           = "casper-two"
 # theme           = "cobbble"

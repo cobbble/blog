@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Cobbble</title>
-    <link>/categories/</link>
+    <link>http://cobbble.com/categories/</link>
     <description>Recent content in Categories on Cobbble</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>© 2017</copyright>
     
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://cobbble.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ui</title>
-      <link>/categories/ui/</link>
+      <link>http://cobbble.com/categories/ui/</link>
       <pubDate>Mon, 20 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>/categories/ui/</guid>
+      <guid>http://cobbble.com/categories/ui/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ux</title>
-      <link>/categories/ux/</link>
+      <link>http://cobbble.com/categories/ux/</link>
       <pubDate>Sun, 05 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>/categories/ux/</guid>
+      <guid>http://cobbble.com/categories/ux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Works</title>
-      <link>/categories/works/</link>
+      <link>http://cobbble.com/categories/works/</link>
       <pubDate>Sat, 07 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/categories/works/</guid>
+      <guid>http://cobbble.com/categories/works/</guid>
       <description></description>
     </item>
     
