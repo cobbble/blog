@@ -16,7 +16,7 @@ publishDir      = "docs"
   cover       = "img/blog-cover.jpg"
   description = "Chelme Zhao's Blog of UI/UX."
   metaDescription = ""
-  googleAnalytics = ""
+  googleAnalytics = "UA-117326206-1"
   customCSS = []
   RSSLink = ""
 
