@@ -3,7 +3,7 @@ author: "Chelme"
 date: 2017-11-20
 linktitle: logo-design
 prev: /articles/old-people
-next: /works/dueros
+next: /articles/white-space
 title: 关于logo设计的二三言
 weight: 10
 slug: articles/logo-design
@@ -16,7 +16,7 @@ tags:
   - logo
 ---
 
-### 介绍
+### 引
 IBM的创始人小沃森曾说过：Good Design is good business。毋容置疑，好的品牌设计能在受众心中留下好的印象，甚至会影响品牌的商业表现。
 
 但为什么这么多科技公司的 Logo 看起来都差不多？从 Google 到 Airbnb，从 Spotify 到 Pinterest，这些公司最初都使用了相对独特的特殊字体，随着品牌和服务的逐步成熟和扩大，最终他们的 Logo 都演变成为了极为相似的非衬线字体。不同的产品相似的 Logo，不禁疑问 Logo 到底要表达的是什么呢。

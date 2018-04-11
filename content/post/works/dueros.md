@@ -2,7 +2,7 @@
 author: "Chelme"
 date: 2018-04-07
 linktitle: dueros
-prev: /works/logo-design
+prev: /articles/white-space
 title: 小度在家logo设计
 weight: 10
 slug: works/dueros

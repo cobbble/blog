@@ -14,8 +14,7 @@ tags:
   - ux
 ---
 
-### 介绍
-
+### 引
 在互联网的产品中，吸引老年人这部分用户群体曾经是被认为是最后要考虑的事情。然而，老年用户群体持续不断增长，经常登录、注册和订阅。statista的统计显示，仅在美国境内，2016年就有[64%的老年人](https://www.statista.com/statistics/266587/percentage-of-internet-users-by-age-groups-in-the-us/)在线，这个数字在2013年的时候只有4%。
 
 ![](/img/articles/old-people/pic-1.png)

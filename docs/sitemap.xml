@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>http://cobbble.com/post/articles/white-space/</loc>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://cobbble.com/post/articles/logo-design/</loc>
     <lastmod>2017-11-20T00:00:00+00:00</lastmod>
   </url>
@@ -66,13 +71,13 @@
   
   <url>
     <loc>http://cobbble.com/tags/ux/</loc>
-    <lastmod>2017-11-05T00:00:00+00:00</lastmod>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://cobbble.com/categories/ux/</loc>
-    <lastmod>2017-11-05T00:00:00+00:00</lastmod>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
