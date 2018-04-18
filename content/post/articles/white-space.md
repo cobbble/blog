@@ -1,7 +1,7 @@
 ---
 author: "Chelme"
 date: 2017-12-01
-linktitle: logo-design
+linktitle: white-space
 prev: /articles/logo-design
 next: /works/dueros
 title: 设计里如何做留白

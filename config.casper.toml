@@ -1,0 +1,73 @@
+baseurl         = "http://cobbble.com"
+title       = "Cobbble"
+theme           = "massively"
+# theme           = "casper-two"
+# theme           = "cobbble"
+languageCode    = "zh"
+disqusShortname = "cobbble"
+paginate        = 6
+#SectionPagesMenu = "main"
+canonifyurls    = true
+publishDir      = "docs"
+
+[params]
+  subtitle    = "关注互联网产品UI/UX设计"
+  copyright   = "© 2017"
+
+  cover       = "img/blog-cover.jpg"
+  description = "Chelme Zhao's Blog of UI/UX."
+  metaDescription = ""
+  googleAnalytics = "UA-117326206-1"
+  customCSS = []
+  RSSLink = ""
+
+  dribbble = "chelme"
+  twitterName = "chelme_z"
+  githubName = "chelme"
+  linkedinName = "chelme"
+
+  logo = "logo.png"
+  orgName = "Cobbble"
+  orgWebsite = "http://www.cobbble.com"
+  orgDescription = "..."
+
+  showSupport = true
+
+  author = "Chelme"
+  authorAvatar = "chelme.png"
+  authorLocation = "Beijing, China"
+  authorWebsite = "https://dribbble.com/chelme"
+  authorDescription = "Designer"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/post/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Works"
+  url = "/categories/works/"
+  weight = 100
+
+[[menu.main]]
+  name = "Categories"
+  url = "/categories/"
+  weight = 99
+
+[[menu.main]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 98
+
+[[menu.main]]
+  name = "Dribbble"
+  url = "https://dribbble.com/chelme"
+  weight = 95

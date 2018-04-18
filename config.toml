@@ -1,7 +1,6 @@
 baseurl         = "http://cobbble.com"
 title       = "Cobbble"
 theme           = "casper-two"
-# theme           = "cobbble"
 languageCode    = "zh"
 disqusShortname = "cobbble"
 paginate        = 6
@@ -14,8 +13,8 @@ publishDir      = "docs"
   copyright   = "© 2017"
 
   cover       = "img/blog-cover.jpg"
-  description = "Chelme Zhao's Blog of UI/UX."
-  metaDescription = ""
+  description = "Cobbble，关注互联网产品UI/UX设计，作者Chelme Zhao。"
+  metaDescription = "Cobbble，关注互联网产品UI/UX设计，作者Chelme Zhao。"
   googleAnalytics = "UA-117326206-1"
   customCSS = []
   RSSLink = ""
