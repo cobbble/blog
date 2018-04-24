@@ -3,6 +3,7 @@ author: "Chelme"
 date: 2018-04-07
 linktitle: dueros
 prev: /articles/white-space
+next: /articles/vui-emotion
 title: 小度在家logo设计
 weight: 10
 slug: works/dueros
