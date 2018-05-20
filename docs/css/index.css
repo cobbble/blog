@@ -1,0 +1,290 @@
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+  border: 0;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+  text-decoration: none;
+}
+a,
+button,
+input,
+select,
+textarea {
+  outline: none;
+}
+body {
+  font-family: PingFang SC, Lantinghei SC, Helvetica Neue, Helvetica, Arial, Microsoft YaHei, STHeitiSC-Light, simsun, WenQuanYi Zen Hei, WenQuanYi Micro Hei, "sans-serif";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-size-adjust: 100%!important;
+  -ms-text-size-adjust: 100%!important;
+  -webkit-text-size-adjust: 100%!important;
+}
+.main {
+  width: 100%;
+}
+.wrap-1000,
+.wrap-1240 {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.wrap-1000 {
+  max-width: 1000px;
+}
+.wrap-1240 {
+  max-width: 1240px;
+}
+.clearfix {
+  min-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix:after,
+.clearfix:before {
+  content: " ";
+  display: table;
+  border-collapse: collapse;
+}
+
+html,
+body,
+#screen {
+  width: 100%;
+  height: 100%;
+}
+#screen {
+  position: relative;
+  background: #fff;
+  min-width: 1240px;
+  min-height: 700px;
+}
+#screen-left,
+#screen-right {
+  position: relative;
+  width: 50%;
+  height: 100%;
+}
+#screen-left {
+  float: left;
+  background-image: url(/image/ab238d4242e9221f9828d9948ad72796.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#screen-left .logo {
+  width: 35px;
+  height: 35px;
+  margin-left: 45px;
+  margin-top: 45px;
+}
+#screen-right {
+  position: relative;
+  margin-left: 50%;
+}
+#screen-right .contact {
+  float: right;
+  margin-top: 20px;
+  margin-right: 35px;
+}
+#screen-right .contact #social {
+  float: right;
+  margin-right: 15px;
+  margin-top: 32px;
+}
+#screen-right .contact #social a {
+  display: block;
+  float: left;
+  height: 26px;
+  width: 26px;
+  margin-left: 25px;
+}
+#screen-right .contact #social a img {
+  height: 26px;
+  width: 26px;
+}
+#screen-right .contact #talk-to-me {
+  display: block;
+  float: right;
+  width: 118px;
+  height: 101px;
+  background-image: url(/image/a01501e2c0c78ce2906c23adfc0fca5b.png);
+  background-size: cover;
+  background-position: center;
+}
+#screen-right .contact #talk-to-me:hover {
+  background-image: url(/image/e9734c33ccbbc5846af2695d0a137559.png);
+}
+#screen-right .nav {
+  position: absolute;
+  right: 55px;
+  bottom: 90px;
+  text-align: right;
+}
+#screen-right .nav li {
+  height: 125px;
+  line-height: 125px;
+}
+#screen-right .nav li #nav-flag {
+  height: 3px;
+  width: 70px;
+  float: right;
+  background: #333;
+  margin-top: 75px;
+}
+#screen-right .nav a li span {
+  color: #333;
+  font-size: 90px;
+  font-family: Futura-Bold;
+}
+#screen-right .nav a li .black {
+  display: block;
+}
+#screen-right .nav a li .white {
+  display: none;
+  font-size: 72px;
+  color: #fff;
+  padding: 0 30px 0 35px;
+}
+#screen-right .nav a li .white.blog {
+  background: #50e3c2;
+}
+#screen-right .nav a li .white.work {
+  background: #fe96f8;
+}
+#screen-right .nav a li:hover .black {
+  display: none;
+}
+#screen-right .nav a li:hover .white {
+  display: block;
+}
+#profile {
+  width: 345px;
+  height: 105px;
+  padding: 120px 0;
+  text-align: center;
+  position: absolute;
+  z-index: 100;
+  top: 50%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -173px;
+  background-image: url(/image/3792e049e5f8a8e224898033413a866b.png);
+}
+

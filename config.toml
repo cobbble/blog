@@ -1,6 +1,7 @@
 baseurl         = "http://cobbble.com"
 title       = "Cobbble"
-theme           = "casper-two"
+# theme           = "casper-two"
+theme           = "cobbble"
 languageCode    = "zh"
 disqusShortname = "cobbble"
 paginate        = 6
@@ -43,7 +44,8 @@ publishDir      = "docs"
   singleViewStyle = "casper"
 
 [permalinks]
-  post = "/post/:slug/"
+  blog = "/blog/:slug/"
+  protfolio = "/protfolio/:slug/"
 
 [[menu.main]]
   name = "Home"

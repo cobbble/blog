@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>Blog - Cobbble</title>
+  <meta name="description" content=""/>
+</head>
+<body>
+  <div class="main" id="blog-list">
+    <header class="list-header">
+      <div class="wrap-1240">
+        <div class="logo-wrap">
+          <a href="/" title="cobbble.com"><img src="../../image/logo-chelme.png" alt="chelme" id="logo-chelme"></a>
+        </div>
+        <div class="contact">
+          <a href="javascript:;" id="talk-to-me"></a>
+          <div id="social">
+            <a href="https://dribbble.com/chelme" target="_blank"><img src="../../image/icon-dribbble-w.png" alt="dribbble"></a>
+            <a href="https://www.instagram.com/chelmecici/" target="_blank"><img src="../../image/icon-ins-w.png" alt="instagram"></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- "{{.Content}}" pulls from the markdown content of the corresponding _index.md -->
+    <ul class="wrap-1000 list clearfix">
+      {{ range .Data.Pages }}
+        <li>
+          <a href="{{.Permalink}}">
+            <div class="cover" style="background-image: url({{.Params.cover}})"></div>
+          </a>
+          <a href="{{.Permalink}}" class="content">
+            <h2>{{.Title}}</h2>
+            <p>{{.Description}}</p>
+          </a>
+          <div class="tags clearfix">
+            {{if .Params.tags}}
+              {{ range $index, $tag := .Params.tags}}
+                <a class="tag" href=":;" title="{{$tag}}">#{{$tag}}</a>
+              {{end}}
+            {{end}}
+          </div>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+</body>
+</html>

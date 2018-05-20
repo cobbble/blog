@@ -3,28 +3,58 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://cobbble.com/post/articles/vui-emotion/</loc>
+    <loc>http://cobbble.com/portfolio/same/</loc>
+  </url>
+  
+  <url>
+    <loc>http://cobbble.com/portfolio/zuji/</loc>
+  </url>
+  
+  <url>
+    <loc>http://cobbble.com/portfolio/crazygame/</loc>
+  </url>
+  
+  <url>
+    <loc>http://cobbble.com/portfolio/starbucks/</loc>
+  </url>
+  
+  <url>
+    <loc>http://cobbble.com/portfolio/zhihu/</loc>
+  </url>
+  
+  <url>
+    <loc>http://cobbble.com/blog/articles/vui-emotion/</loc>
     <lastmod>2018-04-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://cobbble.com/post/works/dueros/</loc>
+    <loc>http://cobbble.com/blog/works/dueros/</loc>
     <lastmod>2018-04-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://cobbble.com/post/articles/white-space/</loc>
+    <loc>http://cobbble.com/blog/articles/white-space/</loc>
     <lastmod>2017-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://cobbble.com/post/articles/logo-design/</loc>
+    <loc>http://cobbble.com/blog/articles/logo-design/</loc>
     <lastmod>2017-11-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://cobbble.com/post/articles/old-people/</loc>
+    <loc>http://cobbble.com/blog/articles/old-people/</loc>
     <lastmod>2017-11-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://cobbble.com/blog/</loc>
+    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://cobbble.com/portfolio/</loc>
+    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -47,12 +77,6 @@
   <url>
     <loc>http://cobbble.com/tags/logo/</loc>
     <lastmod>2018-04-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://cobbble.com/post/</loc>
-    <lastmod>2018-04-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
