@@ -10,7 +10,7 @@
 <body>
   <header>
     <div class="wrap-1240">
-      <img src="../../image/logo-cobbble-color.png" alt="cobbble" class="logo">
+      <a href="/"><img src="../../image/logo-cobbble-color.png" alt="cobbble" class="logo"></a>
       <ul class="nav">
         <li><a href="/">HOME</a></li>
         <li><a href="/blog">BLOG</a></li>
@@ -24,12 +24,14 @@
   </header>
   <div class="wrap">
     <div class="meta-date">
+      <a href="/blog">Chelme</a>
+      <span class="flag">/</span>
       <time datetime="{{.Date.Format "2006-01-02"}}">{{ .Date.Format "2 January 2006" | safeHTML }}</time>
       {{if .Params.tags }}
         <span class="flag">/</span>
         {{ range $index, $tag := .Params.tags }}
           {{if lt $index 2}}
-            <a href="{{$.Site.BaseURL}}tags/{{ $tag | urlize }}/">#{{$tag}}</a>
+            <a href="{{$.Site.BaseURL}}/tags/{{ $tag | urlize }}/">#{{$tag}}</a>
           {{end}}
         {{end}}
       {{ end }}

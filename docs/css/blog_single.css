@@ -196,6 +196,9 @@ header .nav li a {
   -moz-font-feature-settings: "liga" on;
   font-size: 12px;
 }
+header .nav li a:hover {
+  opacity: 1;
+}
 header .social {
   float: right;
   margin-right: 15px;
@@ -209,9 +212,12 @@ header .social li a {
 }
 header .social li img {
   display: block;
-  height: 22px;
+  height: 20px;
   opacity: .8;
-  margin-top: 19px;
+  margin-top: 20px;
+}
+header .social li img:hover {
+  opacity: 1;
 }
 .wrap {
   width: 700px;
@@ -225,7 +231,7 @@ header .social li img {
 }
 .wrap .meta-date a {
   color: rgba(0, 0, 0, 0.54);
-  padding: 2px 5px;
+  padding: 2px;
   display: inline-block;
 }
 .wrap #title {
