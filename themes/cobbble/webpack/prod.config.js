@@ -13,7 +13,7 @@ const config = {
     portfolio_single: rootPath + 'src/js/page/portfolio/single.js'
   },
   output: {
-    filename: 'js/[name].js',
+    filename: 'js/[name].[hash:8].js',
     path: path.resolve(rootPath, 'static'),
     publicPath: 'https://cdn.chelme.com/',
     chunkFilename: 'js/[id].chunk.js'
@@ -100,7 +100,7 @@ const config = {
     new MiniCssExtractPlugin({
       // Options similar to the same options in webpackOptions.output
       // both options are optional
-      filename: "css/[name].css",
+      filename: "css/[name].[hash:8].css",
       chunkFilename: "[id].css"
     }),
   ],
