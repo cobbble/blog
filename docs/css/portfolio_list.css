@@ -219,6 +219,7 @@ body {
   height: 243px;
   background-image: url(https://cdn.chelme.com/image/ea0f3b89c1997d61ee00bfea6acfe8d8.png);
   background-position: center;
+  background-size: cover;
 }
 .list-header .logo-wrap {
   padding-top: 50px;

@@ -149,6 +149,7 @@ html,body,#screen{
     display: none;
   }
   #profile{
+    display: none;
     width: 260px;
     height: 260px;
     margin-top: -150px;
@@ -175,9 +176,13 @@ html,body,#screen{
           color: #fff;
           font-size: 80px;
         }
-        .white{
-          font-size: 66px;
-          padding: 0 20px 0 25px;
+        &:hover{
+          .black{
+            display: block!important;
+          }
+          .white{
+            display: none!important;
+          }
         }
       }
     }

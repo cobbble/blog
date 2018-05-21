@@ -311,6 +311,7 @@ body,
     display: none;
   }
   #profile {
+    display: none;
     width: 260px;
     height: 260px;
     margin-top: -150px;
@@ -338,9 +339,11 @@ body,
     color: #fff;
     font-size: 80px;
   }
-  #nav a li .white {
-    font-size: 66px;
-    padding: 0 20px 0 25px;
+  #nav a li:hover .black {
+    display: block!important;
+  }
+  #nav a li:hover .white {
+    display: none!important;
   }
 }
 
