@@ -173,111 +173,102 @@ body,
 #screen {
   position: relative;
   background: #fff;
-  min-width: 1240px;
-  min-height: 700px;
 }
-#screen-left,
-#screen-right {
-  position: relative;
+#screen-bg {
   width: 50%;
   height: 100%;
-}
-#screen-left {
   float: left;
-  background-image: url(/image/ab238d4242e9221f9828d9948ad72796.jpg);
+  position: relative;
+  background-image: url(https://cdn.chelme.com/image/ab238d4242e9221f9828d9948ad72796.jpg);
   background-position: center;
   background-size: cover;
 }
-#screen-left .logo {
+#screen-bg .logo {
   width: 35px;
   height: 35px;
   margin-left: 45px;
   margin-top: 45px;
 }
-#screen-right {
-  position: relative;
-  margin-left: 50%;
+#contact {
+  position: absolute;
+  top: 20px;
+  right: 35px;
 }
-#screen-right .contact {
-  float: right;
-  margin-top: 20px;
-  margin-right: 35px;
-}
-#screen-right .contact #social {
+#contact #social {
   float: right;
   margin-right: 15px;
   margin-top: 32px;
 }
-#screen-right .contact #social a {
+#contact #social a {
   display: block;
   float: left;
   height: 26px;
   width: 26px;
   margin-left: 25px;
 }
-#screen-right .contact #social a img {
+#contact #social a img {
   height: 26px;
   width: 26px;
 }
-#screen-right .contact #talk-to-me {
+#contact #talk-to-me {
   display: block;
   float: right;
   width: 118px;
   height: 101px;
-  background-image: url(/image/a01501e2c0c78ce2906c23adfc0fca5b.png);
+  background-image: url(https://cdn.chelme.com/image/a01501e2c0c78ce2906c23adfc0fca5b.png);
   background-size: cover;
   background-position: center;
 }
-#screen-right .contact #talk-to-me:hover {
-  background-image: url(/image/e9734c33ccbbc5846af2695d0a137559.png);
+#contact #talk-to-me:hover {
+  background-image: url(https://cdn.chelme.com/image/e9734c33ccbbc5846af2695d0a137559.png);
 }
-#screen-right .nav {
+#nav {
   position: absolute;
   right: 55px;
   bottom: 90px;
   text-align: right;
+  z-index: 101;
 }
-#screen-right .nav li {
+#nav li {
   height: 125px;
   line-height: 125px;
 }
-#screen-right .nav li #nav-flag {
+#nav li #nav-flag {
   height: 3px;
   width: 70px;
   float: right;
   background: #333;
   margin-top: 75px;
 }
-#screen-right .nav a li span {
+#nav a li span {
   color: #333;
   font-size: 90px;
   font-family: Futura-Bold;
 }
-#screen-right .nav a li .black {
+#nav a li .black {
   display: block;
 }
-#screen-right .nav a li .white {
+#nav a li .white {
   display: none;
   font-size: 72px;
   color: #fff;
   padding: 0 30px 0 35px;
 }
-#screen-right .nav a li .white.blog {
+#nav a li .white.blog {
   background: #50e3c2;
 }
-#screen-right .nav a li .white.work {
+#nav a li .white.work {
   background: #fe96f8;
 }
-#screen-right .nav a li:hover .black {
+#nav a li:hover .black {
   display: none;
 }
-#screen-right .nav a li:hover .white {
+#nav a li:hover .white {
   display: block;
 }
 #profile {
   width: 345px;
-  height: 105px;
-  padding: 120px 0;
+  height: 345px;
   text-align: center;
   position: absolute;
   z-index: 100;
@@ -285,6 +276,121 @@ body,
   left: 50%;
   margin-top: -200px;
   margin-left: -173px;
-  background-image: url(/image/3792e049e5f8a8e224898033413a866b.png);
+}
+#profile img {
+  position: relative;
+  display: block;
+  margin: 135px auto;
+  height: 75px;
+  z-index: 101;
+}
+#profile .bg {
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://cdn.chelme.com/image/6b067c8d0d6ead74d9ad3078805f9538.png);
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (max-width: 750px) {
+  #screen-bg {
+    width: 100%;
+  }
+  #screen-bg .logo {
+    margin-left: 30px;
+    margin-top: 40px;
+  }
+  #contact {
+    top: 15px;
+    right: 10px;
+  }
+  #social {
+    display: none;
+  }
+  #profile {
+    width: 260px;
+    height: 260px;
+    margin-top: -150px;
+    margin-left: -130px;
+  }
+  #profile img {
+    margin: 95px auto;
+    height: 70px;
+  }
+  #profile .bg {
+    opacity: .5;
+  }
+  #nav {
+    right: 30px;
+    bottom: 30px;
+  }
+  #nav #nav-flag {
+    display: none;
+  }
+  #nav a li {
+    height: 100px;
+    line-height: 100px;
+  }
+  #nav a li span {
+    color: #fff;
+    font-size: 80px;
+  }
+  #nav a li .white {
+    font-size: 66px;
+    padding: 0 20px 0 25px;
+  }
+}
+
+#popup {
+  display: none;
+  position: fixed;
+  z-index: 110;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.popup-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  border: 1px solid #888;
+  position: relative;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+.popup-content #popup-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  opacity: .4;
+}
+.popup-content #popup-close img {
+  width: 20px;
+  height: 20px;
+}
+.popup-content #popup-close:hover {
+  opacity: .6;
+}
+.popup-content.wechat {
+  width: 300px;
+}
+.popup-content.wechat .chelme-wechat {
+  width: 300px;
+}
+@keyframes animatetop {
+  from {
+    margin-top: 20%;
+    opacity: 0;
+  }
+  to {
+    margin-top: 15%;
+    opacity: 1;
+  }
 }
 

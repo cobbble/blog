@@ -7,7 +7,7 @@ next: /articles/white-space
 title: 关于logo设计的二三言
 weight: 10
 slug: articles/logo-design
-cover: ../../image/blog/articles/logo-design/cover.png
+cover: https://cdn.chelme.com/image/blog/articles/logo-design/cover.png
 description: 在互联网的产品中，吸引老年人用户群体曾经被认为是最后要考虑的事情。然而老年用户群体持续不断增长，在互联网用户中占据很大的比例。如果用户体验师在设计时遵循这些规则，用户体验绝不会差。
 categories:
   - ui
@@ -16,12 +16,11 @@ tags:
   - logo
 ---
 
-### 引
 IBM的创始人小沃森曾说过：Good Design is good business。毋容置疑，好的品牌设计能在受众心中留下好的印象，甚至会影响品牌的商业表现。
 
 但为什么这么多科技公司的 Logo 看起来都差不多？从 Google 到 Airbnb，从 Spotify 到 Pinterest，这些公司最初都使用了相对独特的特殊字体，随着品牌和服务的逐步成熟和扩大，最终他们的 Logo 都演变成为了极为相似的非衬线字体。不同的产品相似的 Logo，不禁疑问 Logo 到底要表达的是什么呢。
 
-![](/image/blog/articles/logo-design/pic-1.png)
+![](https://cdn.chelme.com/image/blog/articles/logo-design/pic-1.png)
 
 在和这些科技公司有合作的设计机构的品牌专家探讨后，得出以下结论：
 
@@ -47,7 +46,7 @@ Logo 不仅体现出品牌的外观和感受，也与他们的用户产生联系
 
 继16年 Instagram 的 Logo 改版，17年值得关注的就是Medium的logo优化改版。提到“简”与“洁”，Medium 的设计通常会被业界视为“简洁”的典范。
 
-![](/image/blog/articles/logo-design/pic-2.png)
+![](https://cdn.chelme.com/image/blog/articles/logo-design/pic-2.png)
 
 对比看旧 Logo 与新 Logo，绿色多边形堆不能表达出最初Medium传达的清晰黑白思维的美感。简单、清晰、高级、稳定感。
 

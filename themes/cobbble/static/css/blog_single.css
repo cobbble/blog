@@ -170,8 +170,10 @@ header {
   line-height: 60px;
   background: #090a0b;
 }
-header .wrap-1240 {
+header .wrap-header {
   padding: 0 20px;
+  margin: 0 auto;
+  max-width: 1000px;
 }
 header .logo {
   float: left;
@@ -201,7 +203,7 @@ header .nav li a:hover {
 }
 header .social {
   float: right;
-  margin-right: 15px;
+  margin-right: 20px;
 }
 header .social li {
   float: left;
@@ -220,7 +222,7 @@ header .social li img:hover {
   opacity: 1;
 }
 .wrap {
-  width: 700px;
+  max-width: 700px;
   margin: 30px auto 100px;
 }
 .wrap .meta-date {
@@ -236,43 +238,75 @@ header .social li img:hover {
 }
 .wrap #title {
   font-size: 42px;
-  line-height: 76px;
+  line-height: 52px;
+  margin: 10px 0;
   color: rgba(0, 0, 0, 0.84);
 }
 .wrap #sub-title {
-  color: rgba(0, 0, 0, 0.54);
+  color: rgba(0, 0, 0, 0.38);
   font-size: 15px;
-  line-height: 1.5;
+  line-height: 2;
   letter-spacing: -0.012em;
   font-weight: normal;
+  font-style: italic;
+}
+.wrap #sub-title:after {
+  display: block;
+  width: 160px;
+  height: 4px;
+  border-radius: 3px;
+  background: #efefef;
+  content: "";
+  margin-top: 1rem;
 }
 .wrap #cover {
-  width: 700px;
+  width: 100%;
   margin-top: 30px;
 }
 .wrap #content {
-  width: 700px;
+  width: 100%;
   font-size: 15px;
 }
 .wrap #content h3 {
   font-size: 24px;
-  margin-top: 30px;
+  margin-top: 45px;
 }
 .wrap #content p {
-  margin-top: 20px;
-  line-height: 1.5;
+  margin-top: 22px;
+  line-height: 2;
 }
 .wrap #content img {
   max-width: 700px;
+  width: 100%;
 }
 .wrap #content a {
   color: #4285f4;
 }
 .wrap #content ul {
   list-style: initial;
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
 }
 .wrap #content ul li {
-  margin-top: 6px;
+  line-height: 1.5;
+  margin-top: 5px;
+}
+@media only screen and (max-width: 700px) {
+  .logo {
+    margin-left: 0!important;
+  }
+  .nav li {
+    margin-left: 20px!important;
+  }
+  .social {
+    margin-right: 0!important;
+  }
+  .social li {
+    margin-right: 0!important;
+    margin-left: 20px!important;
+  }
+  .wrap {
+    padding: 0 20px;
+  }
 }
 

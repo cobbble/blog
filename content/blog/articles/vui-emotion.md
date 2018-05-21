@@ -6,7 +6,7 @@ prev: /works/dueros
 title: 智能AI需要有情绪吗
 weight: 10
 slug: articles/vui-emotion
-cover: ../../image/blog/articles/vui-emotion/cover.png
+cover: https://cdn.chelme.com/image/blog/articles/vui-emotion/cover.png
 description: 将情绪体现到人工智能中是非常重要的。如果一个人工智能能够在情感基础上与人们建立联系，理解他们，感受他们，给予一定的回应。那不仅对于产品黏性，AI存在意义也将有全新定义。
 categories:
   - vui
@@ -26,31 +26,31 @@ tags:
 ### 颜色=情绪
 在网络时代的人类社交中，图像承载着情绪。根据2015年的研究，英国增长最快的语言是[表情符号]。表情符号是一种表达情感的非常直观快捷的方式。在这项研究中，研究人员发现，青少年实际上更喜欢使用表情符号来表达情绪。他们使用表情符号比使用语言更舒服。年轻的一代交流方式更开放，也更容易表达自我。承载情绪的图像比冷冰冰的文字要更能吸引到他们的注意。人工智能在未来的15—20年内会更好地阅读我们的情绪。在这种趋势下颜色是能够担当emoji这样附带情绪的载体。
 
-![](/image/blog/articles/vui-emotion/pic-1.png)
+![](https://cdn.chelme.com/image/blog/articles/vui-emotion/pic-1.png)
 
 ### 用VUI表达情绪
 
 黑色：压抑、沉闷、哀痛。
 紫色：神秘、性感。
 
-![](/image/blog/articles/vui-emotion/pic-2.png)
-![](/image/blog/articles/vui-emotion/pic-3.png)
+![](https://cdn.chelme.com/image/blog/articles/vui-emotion/pic-2.png)
+![](https://cdn.chelme.com/image/blog/articles/vui-emotion/pic-3.png)
 
 红色：兴奋 恐惧 热烈。
 
-![](/image/blog/articles/vui-emotion/pic-4.png)
+![](https://cdn.chelme.com/image/blog/articles/vui-emotion/pic-4.png)
 
 黄色：稳定、活泼，喜悦。
 
-![](/image/blog/articles/vui-emotion/pic-5.png)
+![](https://cdn.chelme.com/image/blog/articles/vui-emotion/pic-5.png)
 
 蓝色：安静、忧郁、机敏。
 
-![](/image/blog/articles/vui-emotion/pic-6.png)
+![](https://cdn.chelme.com/image/blog/articles/vui-emotion/pic-6.png)
 
 白色：空虚、孤独。
 绿色：温柔、舒适、宁静之感。
 
-![](/image/blog/articles/vui-emotion/pic-7.png)
+![](https://cdn.chelme.com/image/blog/articles/vui-emotion/pic-7.png)
 
 人工智能开始拥有情绪，这将影响我们的人类去理解和体验这个世界的方式。目前机器能够映射和理解情绪，但不能感知和感觉意图。但机器从感知情绪，通过倾听，甚至通过深入理解面部表情，开始在人类对话中相应地做出反应。结合颜色与情绪的联系，用颜色来体验语音智能产品的拾音样式。或许能让AI产品更贴近人类，更好用。

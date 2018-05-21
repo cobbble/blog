@@ -87,20 +87,14 @@
   </url>
   
   <url>
-    <loc>http://cobbble.com/categories/ui/</loc>
-    <lastmod>2017-11-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://cobbble.com/tags/ui/</loc>
     <lastmod>2017-11-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://cobbble.com/categories/ux/</loc>
-    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+    <loc>http://cobbble.com/categories/ui/</loc>
+    <lastmod>2017-11-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -111,13 +105,19 @@
   </url>
   
   <url>
-    <loc>http://cobbble.com/categories/vui/</loc>
-    <lastmod>2018-04-23T00:00:00+00:00</lastmod>
+    <loc>http://cobbble.com/categories/ux/</loc>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://cobbble.com/tags/vui/</loc>
+    <lastmod>2018-04-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://cobbble.com/categories/vui/</loc>
     <lastmod>2018-04-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

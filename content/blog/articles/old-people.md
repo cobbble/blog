@@ -6,7 +6,7 @@ next: /works/dueros
 title: 思考老年用户体验
 weight: 10
 slug: articles/old-people
-cover: ../../image/blog/articles/old-people/cover.png
+cover: https://cdn.chelme.com/image/blog/articles/old-people/cover.png
 description: 在互联网的产品中，吸引老年人用户群体曾经被认为是最后要考虑的事情。然而老年用户群体持续不断增长，在互联网用户中占据很大的比例。如果用户体验师在设计时遵循这些规则，用户体验绝不会差。
 categories:
   - ux
@@ -14,10 +14,9 @@ tags:
   - ux
 ---
 
-### 引
 在互联网的产品中，吸引老年人这部分用户群体曾经是被认为是最后要考虑的事情。然而，老年用户群体持续不断增长，经常登录、注册和订阅。statista的统计显示，仅在美国境内，2016年就有[64%的老年人](https://www.statista.com/statistics/266587/percentage-of-internet-users-by-age-groups-in-the-us/)在线，这个数字在2013年的时候只有4%。
 
-![](/image/blog/articles/old-people/pic-1.png)
+![](https://cdn.chelme.com/image/blog/articles/old-people/pic-1.png)
 
 尽管数量在增长，老年用户群体在人口统计学中，仍然属于用户体验的不毛之地。如果用户体验师不将老年用户纳入考虑，便会疏远这整个群体，将是很大的损失。
 
@@ -29,7 +28,7 @@ iOS11加大UI元素，使用颜色强调对比、大块的留白替代线条的�
 ### 保证界面的可读性：文字越大越好
 首先要考虑文字和屏幕本身的尺寸，确保用户界面清晰可辨。考虑并非每个用户都有高分辨率的显示器，未必对眼睛友好。界面正文字号最小不要超过12pt。
 
-![](/image/blog/articles/old-people/pic-2.png)
+![](https://cdn.chelme.com/image/blog/articles/old-people/pic-2.png)
 
 虽然可以通过调整设备自身字号，但多数情况下，会产生功能和显示问题。应尽量避免用户去手动设置字号。
 

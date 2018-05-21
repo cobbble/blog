@@ -7,7 +7,7 @@ next: /articles/vui-emotion
 title: 小度在家logo设计
 weight: 10
 slug: works/dueros
-cover: ../../image/blog/works/dueros/cover.png
+cover: https://cdn.chelme.com/image/blog/works/dueros/cover.png
 description: 小度在家的目标用户是两口之家或三代同堂。基于对话是人工智能平台，为家庭提供内容和服务，实现有问必答，精准推送。还拥有视频通话、智能抓拍等家庭社交功能。是一个满足日常家庭和娱乐需求的智能设备。
 categories:
   - works
@@ -22,14 +22,14 @@ tags:
 ### 关键词
 分析小度在家产品定位扩展出感性需求有亲和力、惊喜、有趣、独特。理性需求有智能语音、科技、工具、平台。
 
-![](/image/blog/works/dueros/pic-1.png)
+![](https://cdn.chelme.com/image/blog/works/dueros/pic-1.png)
 
 ### 设计灵感及思路
-![](/image/blog/works/dueros/pic-2.png)
-![](/image/blog/works/dueros/pic-3.png)
+![](https://cdn.chelme.com/image/blog/works/dueros/pic-2.png)
+![](https://cdn.chelme.com/image/blog/works/dueros/pic-3.png)
 
 在原有VI形象上将线条加粗，为更好的表现波浪纹理，在深色背景下更凸显主体，小尺寸场景下识别度也高。
 
-![](/image/blog/works/dueros/pic-5.png)
-![](/image/blog/works/dueros/pic-6.png)
-![](/image/blog/works/dueros/cover.png)
+![](https://cdn.chelme.com/image/blog/works/dueros/pic-5.png)
+![](https://cdn.chelme.com/image/blog/works/dueros/pic-6.png)
+![](https://cdn.chelme.com/image/blog/works/dueros/cover.png)

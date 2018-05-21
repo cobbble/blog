@@ -1,7 +1,7 @@
 ---
 title: Same
 weight: 1
-cover: ../image/portfolio/cover/cover-same.jpg
+cover: https://cdn.chelme.com/image/portfolio/cover/cover-same.jpg
 ---
 
 Same ...
