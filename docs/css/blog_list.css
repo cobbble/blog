@@ -167,7 +167,7 @@ body {
 #popup {
   display: none;
   position: fixed;
-  z-index: 101;
+  z-index: 110;
   left: 0;
   top: 0;
   width: 100%;
@@ -217,7 +217,7 @@ body {
 .list-header {
   width: 100%;
   height: 243px;
-  background-image: url(/image/ea0f3b89c1997d61ee00bfea6acfe8d8.png);
+  background-image: url(https://cdn.chelme.com/image/ea0f3b89c1997d61ee00bfea6acfe8d8.png);
   background-position: center;
 }
 .list-header .logo-wrap {
@@ -233,38 +233,50 @@ body {
   height: 30px;
   display: block;
 }
-.list-header .contact {
+.list-header #contact {
   position: absolute;
   top: 25px;
   right: 20px;
 }
-.list-header .contact #social {
+.list-header #contact #social {
   float: right;
   margin-right: 15px;
   margin-top: 30px;
 }
-.list-header .contact #social a {
+.list-header #contact #social a {
   display: block;
   float: left;
   height: 26px;
   width: 26px;
   margin-left: 25px;
 }
-.list-header .contact #social a img {
+.list-header #contact #social a img {
   height: 26px;
   width: 26px;
 }
-.list-header .contact #talk-to-me {
+.list-header #contact #talk-to-me {
   display: block;
   float: right;
   width: 118px;
   height: 101px;
-  background-image: url(/image/a01501e2c0c78ce2906c23adfc0fca5b.png);
+  background-image: url(https://cdn.chelme.com/image/a01501e2c0c78ce2906c23adfc0fca5b.png);
   background-size: cover;
   background-position: center;
 }
-.list-header .contact #talk-to-me:hover {
-  background-image: url(/image/e9734c33ccbbc5846af2695d0a137559.png);
+.list-header #contact #talk-to-me:hover {
+  background-image: url(https://cdn.chelme.com/image/e9734c33ccbbc5846af2695d0a137559.png);
+}
+@media only screen and (max-width: 750px) {
+  #social {
+    display: none;
+  }
+  #contact {
+    top: 20px!important;
+    right: 5px!important;
+  }
+  .list-header .logo-wrap {
+    margin-left: 30px;
+  }
 }
 
 #blog-list {
@@ -318,5 +330,10 @@ body {
   margin-right: 6px;
   background: #50e3c2;
   color: #fff;
+}
+@media only screen and (max-width: 750px) {
+  #blog-list .list li {
+    margin-bottom: 25px;
+  }
 }
 
