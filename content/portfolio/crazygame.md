@@ -1,7 +1,7 @@
 ---
 title: 疯狂游乐场
 weight: 3
-cover: https://cdn.chelme.com/image/portfolio/cover/cover-crazygame.jpg
+cover: https://cdn.chelme.com/image/portfolio/crazygame/cover.jpg
 ---
 
-Crazy ...
+![](https://cdn.chelme.com/image/portfolio/crazygame/pic-1.png)

@@ -1,0 +1,311 @@
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+  border: 0;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+  text-decoration: none;
+}
+a,
+button,
+input,
+select,
+textarea {
+  outline: none;
+}
+body {
+  font-family: PingFang SC, Lantinghei SC, Helvetica Neue, Helvetica, Arial, Microsoft YaHei, STHeitiSC-Light, simsun, WenQuanYi Zen Hei, WenQuanYi Micro Hei, "sans-serif";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-size-adjust: 100%!important;
+  -ms-text-size-adjust: 100%!important;
+  -webkit-text-size-adjust: 100%!important;
+}
+.main {
+  width: 100%;
+}
+.wrap-1000,
+.wrap-1240 {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.wrap-1000 {
+  max-width: 1000px;
+}
+.wrap-1240 {
+  max-width: 1240px;
+}
+.clearfix {
+  min-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix:after,
+.clearfix:before {
+  content: " ";
+  display: table;
+  border-collapse: collapse;
+}
+
+#popup {
+  display: none;
+  position: fixed;
+  z-index: 110;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.popup-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  border: 1px solid #888;
+  position: relative;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+.popup-content #popup-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  opacity: .4;
+}
+.popup-content #popup-close img {
+  width: 20px;
+  height: 20px;
+}
+.popup-content #popup-close:hover {
+  opacity: .6;
+}
+.popup-content.wechat {
+  width: 300px;
+}
+.popup-content.wechat .chelme-wechat {
+  width: 300px;
+}
+@keyframes animatetop {
+  from {
+    margin-top: 20%;
+    opacity: 0;
+  }
+  to {
+    margin-top: 15%;
+    opacity: 1;
+  }
+}
+
+.list-header {
+  width: 100%;
+  height: 243px;
+  background-image: url(https://cdn.chelme.com/image/ea0f3b89c1997d61ee00bfea6acfe8d8.png);
+  background-position: center;
+  background-size: cover;
+}
+.list-header .logo-wrap {
+  padding-top: 50px;
+  margin: 0 auto;
+  width: 100px;
+}
+.list-header .logo-wrap a {
+  display: block;
+  margin: 0 auto;
+}
+.list-header .logo-wrap a #logo-chelme {
+  height: 30px;
+  display: block;
+}
+.list-header #contact {
+  position: absolute;
+  top: 25px;
+  right: 20px;
+}
+.list-header #contact #social {
+  float: right;
+  margin-right: 15px;
+  margin-top: 30px;
+}
+.list-header #contact #social a {
+  display: block;
+  float: left;
+  height: 26px;
+  width: 26px;
+  margin-left: 25px;
+}
+.list-header #contact #social a img {
+  height: 26px;
+  width: 26px;
+}
+.list-header #contact #talk-to-me {
+  display: block;
+  float: right;
+  width: 118px;
+  height: 101px;
+  background-image: url(https://cdn.chelme.com/image/a01501e2c0c78ce2906c23adfc0fca5b.png);
+  background-size: cover;
+  background-position: center;
+}
+.list-header #contact #talk-to-me:hover {
+  background-image: url(https://cdn.chelme.com/image/e9734c33ccbbc5846af2695d0a137559.png);
+}
+@media only screen and (max-width: 750px) {
+  #social {
+    display: none;
+  }
+  #contact {
+    top: 20px!important;
+    right: 5px!important;
+  }
+  .list-header .logo-wrap {
+    margin-left: 30px;
+  }
+}
+
+#portfolio-list .list {
+  margin: 15px auto 0;
+}
+#portfolio-list .list a,
+#portfolio-list .list img {
+  display: block;
+}
+#portfolio-list .list li {
+  width: 100%;
+}
+#portfolio-list .list li img {
+  width: 100%;
+}
+#portfolio-list footer {
+  padding: 100px 0;
+}
+#portfolio-list footer img {
+  max-width: 1000px;
+  width: 100%;
+}
+@media only screen and (max-width: 750px) {
+  .list {
+    margin-top: 0!important;
+  }
+  footer {
+    display: none;
+  }
+}
+

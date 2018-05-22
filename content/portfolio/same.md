@@ -1,7 +1,7 @@
 ---
-title: Same
+title: Same 新年主题UI
 weight: 1
-cover: https://cdn.chelme.com/image/portfolio/cover/cover-same.jpg
+cover: https://cdn.chelme.com/image/portfolio/same/cover.jpg
 ---
 
-Same ...
+![](https://cdn.chelme.com/image/portfolio/same/pic-1.png)

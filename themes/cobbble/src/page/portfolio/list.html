@@ -2,7 +2,7 @@
 <html lang="zh">
 <head>
   <meta charset="UTF-8">
-  <title>Portfolio - Cobbble</title>
+  <title>Portfolio - Cobbble By Chelme</title>
   <meta name="force-rendering" content="webkit">
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover">
   <link rel="shortcut icon" href="https://cdn.chelme.com/favicon.ico">
@@ -28,7 +28,7 @@
     <ul class="wrap-1000 list">
     <!-- Ranges through content/portfolio/*.md -->
       {{ range .Data.Pages }}
-        <a href="{{.Permalink}}"><li><img src="{{.Params.cover}}" alt="{{.Title}}" title="{{.Title}}"></li></a>
+        <a href="{{.Permalink}}" target="_blank"><li><img src="{{.Params.cover}}" alt="{{.Title}}" title="{{.Title}}"></li></a>
       {{ end }}
     </ul>
     <footer class="wrap-1000">

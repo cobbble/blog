@@ -179,7 +179,7 @@ body,
   height: 100%;
   float: left;
   position: relative;
-  background-image: url(https://cdn.chelme.com/image/ab238d4242e9221f9828d9948ad72796.jpg);
+  background-image: url(/image/ab238d4242e9221f9828d9948ad72796.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -215,12 +215,12 @@ body,
   float: right;
   width: 118px;
   height: 101px;
-  background-image: url(https://cdn.chelme.com/image/a01501e2c0c78ce2906c23adfc0fca5b.png);
+  background-image: url(/image/a01501e2c0c78ce2906c23adfc0fca5b.png);
   background-size: cover;
   background-position: center;
 }
 #contact #talk-to-me:hover {
-  background-image: url(https://cdn.chelme.com/image/e9734c33ccbbc5846af2695d0a137559.png);
+  background-image: url(/image/e9734c33ccbbc5846af2695d0a137559.png);
 }
 #nav {
   position: absolute;
@@ -291,7 +291,7 @@ body,
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(https://cdn.chelme.com/image/6b067c8d0d6ead74d9ad3078805f9538.png);
+  background-image: url(/image/6b067c8d0d6ead74d9ad3078805f9538.png);
   background-position: center;
   background-size: cover;
 }

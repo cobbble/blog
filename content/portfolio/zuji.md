@@ -1,7 +1,7 @@
 ---
 title: 足迹
 weight: 2
-cover: https://cdn.chelme.com/image/portfolio/cover/cover-zuji.jpg
+cover: https://cdn.chelme.com/image/portfolio/zuji/cover.jpg
 ---
 
-Zuji ...
+![](https://cdn.chelme.com/image/portfolio/zuji/pic-1.png)

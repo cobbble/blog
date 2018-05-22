@@ -217,7 +217,7 @@ body {
 .list-header {
   width: 100%;
   height: 243px;
-  background-image: url(https://cdn.chelme.com/image/ea0f3b89c1997d61ee00bfea6acfe8d8.png);
+  background-image: url(/image/ea0f3b89c1997d61ee00bfea6acfe8d8.png);
   background-position: center;
   background-size: cover;
 }
@@ -260,12 +260,12 @@ body {
   float: right;
   width: 118px;
   height: 101px;
-  background-image: url(https://cdn.chelme.com/image/a01501e2c0c78ce2906c23adfc0fca5b.png);
+  background-image: url(/image/a01501e2c0c78ce2906c23adfc0fca5b.png);
   background-size: cover;
   background-position: center;
 }
 .list-header #contact #talk-to-me:hover {
-  background-image: url(https://cdn.chelme.com/image/e9734c33ccbbc5846af2695d0a137559.png);
+  background-image: url(/image/e9734c33ccbbc5846af2695d0a137559.png);
 }
 @media only screen and (max-width: 750px) {
   #social {
@@ -299,5 +299,13 @@ body {
 #portfolio-list footer img {
   max-width: 1000px;
   width: 100%;
+}
+@media only screen and (max-width: 750px) {
+  .list {
+    margin-top: 0!important;
+  }
+  footer {
+    display: none;
+  }
 }
 

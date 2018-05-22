@@ -1,0 +1,312 @@
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+  border: 0;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+  text-decoration: none;
+}
+a,
+button,
+input,
+select,
+textarea {
+  outline: none;
+}
+body {
+  font-family: PingFang SC, Lantinghei SC, Helvetica Neue, Helvetica, Arial, Microsoft YaHei, STHeitiSC-Light, simsun, WenQuanYi Zen Hei, WenQuanYi Micro Hei, "sans-serif";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-size-adjust: 100%!important;
+  -ms-text-size-adjust: 100%!important;
+  -webkit-text-size-adjust: 100%!important;
+}
+.main {
+  width: 100%;
+}
+.wrap-1000,
+.wrap-1240 {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.wrap-1000 {
+  max-width: 1000px;
+}
+.wrap-1240 {
+  max-width: 1240px;
+}
+.clearfix {
+  min-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix:after,
+.clearfix:before {
+  content: " ";
+  display: table;
+  border-collapse: collapse;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background: #090a0b;
+}
+header .wrap-header {
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+header .logo {
+  float: left;
+  display: inline-block;
+  height: 22px;
+  margin-top: 19px;
+  margin-left: 15px;
+}
+header .nav {
+  float: left;
+}
+header .nav li {
+  float: left;
+  margin-left: 25px;
+}
+header .nav li a {
+  display: block;
+  color: #fff;
+  opacity: .8;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga" on;
+  font-size: 12px;
+}
+header .nav li a:hover {
+  opacity: 1;
+}
+header .social {
+  float: right;
+  margin-right: 20px;
+}
+header .social li {
+  float: left;
+  margin-right: 20px;
+}
+header .social li a {
+  display: block;
+}
+header .social li img {
+  display: block;
+  height: 20px;
+  opacity: .8;
+  margin-top: 20px;
+}
+header .social li img:hover {
+  opacity: 1;
+}
+.wrap {
+  max-width: 700px;
+  margin: 30px auto 100px;
+}
+.wrap .meta-date {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 13px;
+  height: 20px;
+  line-height: 20px;
+}
+.wrap .meta-date a {
+  color: rgba(0, 0, 0, 0.54);
+  padding: 2px;
+  display: inline-block;
+}
+.wrap #title {
+  font-size: 42px;
+  line-height: 52px;
+  margin: 10px 0;
+  color: rgba(0, 0, 0, 0.84);
+}
+.wrap #sub-title {
+  color: rgba(0, 0, 0, 0.38);
+  font-size: 15px;
+  line-height: 2;
+  letter-spacing: -0.012em;
+  font-weight: normal;
+  font-style: italic;
+}
+.wrap #sub-title:after {
+  display: block;
+  width: 160px;
+  height: 4px;
+  border-radius: 3px;
+  background: #efefef;
+  content: "";
+  margin-top: 1rem;
+}
+.wrap #cover {
+  width: 100%;
+  margin-top: 30px;
+}
+.wrap #content {
+  width: 100%;
+  font-size: 15px;
+}
+.wrap #content h3 {
+  font-size: 24px;
+  margin-top: 45px;
+}
+.wrap #content p {
+  margin-top: 22px;
+  line-height: 2;
+}
+.wrap #content img {
+  max-width: 700px;
+  width: 100%;
+}
+.wrap #content a {
+  color: #4285f4;
+}
+.wrap #content ul {
+  list-style: initial;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.wrap #content ul li {
+  line-height: 1.5;
+  margin-top: 5px;
+}
+@media only screen and (max-width: 700px) {
+  .logo {
+    margin-left: 0!important;
+  }
+  .nav li {
+    margin-left: 20px!important;
+  }
+  .social {
+    margin-right: 0!important;
+  }
+  .social li {
+    margin-right: 0!important;
+    margin-left: 20px!important;
+  }
+  .wrap {
+    padding: 0 20px;
+  }
+}
+

@@ -164,8 +164,11 @@ body {
   border-collapse: collapse;
 }
 
-header {
+#work-list {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+#work-list img {
   width: 100%;
-  height: 36px;
 }
 
