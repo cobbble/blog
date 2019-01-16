@@ -42,11 +42,22 @@
       float: right;
       width: 118px;
       height: 101px;
-      background-image: url('../image/talk.png');
-      background-size: cover;
-      background-position: center;
+      img{
+        height: 100%;
+      }
+      .talk-to-me{
+        display: block;
+      }
+      .talk-to-me-hover{
+        display: none;
+      }
       &:hover{
-        background-image: url('../image/talk-hover.png');
+        .talk-to-me{
+          display: none;
+        }
+        .talk-to-me-hover{
+          display: block;
+        }
       }
     }
   }

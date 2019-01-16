@@ -10,7 +10,9 @@ const config = {
     blog_list: rootPath + 'src/js/page/blog/list.js',
     blog_single: rootPath + 'src/js/page/blog/single.js',
     portfolio_list: rootPath + 'src/js/page/portfolio/list.js',
-    portfolio_single: rootPath + 'src/js/page/portfolio/single.js'
+    portfolio_single: rootPath + 'src/js/page/portfolio/single.js',
+    gallery_list: rootPath + 'src/js/page/gallery/list.js',
+    gallery_single: rootPath + 'src/js/page/gallery/single.js'
   },
   output: {
     filename: 'js/[name].js',
@@ -96,6 +98,24 @@ const config = {
       inject: true,
       hash: true,
       chunks: ['portfolio_single']
+    }),
+    new HtmlWebpackPlugin({
+      filename: rootPath + 'layouts/gallery/list.html',
+      template: rootPath + 'src/page/gallery/list.html',
+      inject: true,
+      hash: true,
+      chunks: ['gallery_list'],
+      minify: {
+        removeComments: true,
+        collapseWhitespace: false
+      }
+    }),
+    new HtmlWebpackPlugin({
+      filename: rootPath + 'layouts/gallery/single.html',
+      template: rootPath + 'src/page/gallery/single.html',
+      inject: true,
+      hash: true,
+      chunks: ['gallery_single']
     }),
     new MiniCssExtractPlugin({
       // Options similar to the same options in webpackOptions.output

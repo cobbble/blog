@@ -1,15 +1,19 @@
 #blog-list{
   padding-bottom: 50px;
   .list{
-    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
-    flex-wrap: wrap;
+    display: flex;
+    -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
     li{
       flex: 1 1 300px;
       -ms-flex: 1 1 300px;
-      flex-direction: row;
+      -webkit-flex-direction: row;
       -ms-flex-direction: row;
+      flex-direction: row;
       border: 1px solid #e6ebf0;
       box-shadow: 0 4px 6px 0 rgba(29,59,95,0.06);
       background: #fff;

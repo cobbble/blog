@@ -260,12 +260,21 @@ body {
   float: right;
   width: 118px;
   height: 101px;
-  background-image: url(/image/a01501e2c0c78ce2906c23adfc0fca5b.png);
-  background-size: cover;
-  background-position: center;
 }
-.list-header #contact #talk-to-me:hover {
-  background-image: url(/image/e9734c33ccbbc5846af2695d0a137559.png);
+.list-header #contact #talk-to-me img {
+  height: 100%;
+}
+.list-header #contact #talk-to-me .talk-to-me {
+  display: block;
+}
+.list-header #contact #talk-to-me .talk-to-me-hover {
+  display: none;
+}
+.list-header #contact #talk-to-me:hover .talk-to-me {
+  display: none;
+}
+.list-header #contact #talk-to-me:hover .talk-to-me-hover {
+  display: block;
 }
 @media only screen and (max-width: 750px) {
   #social {
@@ -284,16 +293,20 @@ body {
   padding-bottom: 50px;
 }
 #blog-list .list {
-  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
-  flex-wrap: wrap;
+  display: flex;
+  -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 #blog-list .list li {
   flex: 1 1 300px;
   -ms-flex: 1 1 300px;
-  flex-direction: row;
+  -webkit-flex-direction: row;
   -ms-flex-direction: row;
+  flex-direction: row;
   border: 1px solid #e6ebf0;
   box-shadow: 0 4px 6px 0 rgba(29, 59, 95, 0.06);
   background: #fff;

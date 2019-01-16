@@ -1,110 +1,128 @@
-html,body,#screen{
+#screen,
+body,
+html {
   width: 100%;
   height: 100%;
 }
-#screen{
+#screen {
   position: relative;
   background: #fff;
 }
-#screen-bg{
+#screen-bg {
   width: 50%;
   height: 100%;
   float: left;
   position: relative;
-  background-image: url('../image/chelme.jpg');
+  background-image: url("../image/home-bg.jpg");
   background-position: center;
   background-size: cover;
-  .logo{
+  .logo {
     width: 35px;
     height: 35px;
     margin-left: 45px;
     margin-top: 45px;
   }
 }
-#contact{
+#contact {
   position: absolute;
   top: 20px;
   right: 35px;
-  #social{
+  #social {
     float: right;
     margin-right: 15px;
     margin-top: 32px;
-    a{
+    a {
       display: block;
       float: left;
       height: 26px;
       width: 26px;
       margin-left: 25px;
-      img{
+      img {
         height: 26px;
         width: 26px;
       }
     }
   }
-  #talk-to-me{
+  #talk-to-me {
     display: block;
     float: right;
     width: 118px;
     height: 101px;
-    background-image: url('../image/talk.png');
-    background-size: cover;
-    background-position: center;
-    &:hover{
-      background-image: url('../image/talk-hover.png');
+    img {
+      height: 100%;
+    }
+    .talk-to-me {
+      display: block;
+    }
+    .talk-to-me-hover {
+      display: none;
+    }
+    &:hover {
+      .talk-to-me {
+        display: none;
+      }
+      .talk-to-me-hover {
+        display: block;
+      }
     }
   }
 }
-#nav{
+#nav {
   position: absolute;
   right: 55px;
-  bottom: 90px;
+  bottom: 55px;
   text-align: right;
   z-index: 101;
-  li{
-    height: 125px;
-    line-height: 125px;
-    #nav-flag{
+  li {
+    height: 90px;
+    line-height: 90px;
+    margin: 5px 0;
+    #nav-flag {
       height: 3px;
-      width: 70px;
+      width: 65px;
       float: right;
       background: #333;
-      margin-top: 75px;
+      margin-top: 50px;
     }
   }
-  a{
-    li{
-      span{
+  a {
+    display: block;
+    li {
+      span {
         color: #333;
-        font-size: 90px;
+        font-size: 70px;
         font-family: Futura-Bold;
       }
-      .black{
-        display: block;
+      .black {
+        display: inline-block;
       }
-      .white{
+      .white {
         display: none;
-        font-size: 72px;
+        font-size: 56px;
         color: #fff;
-        padding: 0 30px 0 35px;
-        &.blog{
+        padding: 0 20px 0 26px;
+        &.blog {
           background: #50e3c2;
         }
-        &.work{
+        &.work {
+          background: #aa84e9;
+        }
+        &.gallery {
           background: #fe96f8;
         }
       }
-      &:hover{
-        .black{
+      &:hover {
+        .black {
           display: none;
         }
-        .white{
-          display: block;
+        .white {
+          display: inline-block;
         }
       }
     }
   }
 }
-#profile{
+#profile {
   width: 345px;
   height: 345px;
   text-align: center;
@@ -114,73 +132,74 @@ html,body,#screen{
   left: 50%;
   margin-top: -200px;
   margin-left: -173px;
-  img{
+  img {
     position: relative;
     display: block;
     margin: 135px auto;
     height: 75px;
     z-index: 101;
   }
-  .bg{
+  .bg {
     position: absolute;
     z-index: 100;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../image/profile-bg.png');
+    background-image: url("../image/profile-bg.png");
     background-position: center;
     background-size: cover;
   }
 }
 @media only screen and (max-width: 750px) {
-  #screen-bg{
+  #screen-bg {
     width: 100%;
-    .logo{
+    .logo {
       margin-left: 30px;
       margin-top: 40px;
     }
   }
-  #contact{
+  #contact {
     top: 15px;
     right: 10px;
   }
-  #social{
+  #social {
     display: none;
   }
-  #profile{
+  #profile {
     display: none;
     width: 260px;
     height: 260px;
     margin-top: -150px;
     margin-left: -130px;
-    img{
+    img {
       margin: 95px auto;
       height: 70px;
     }
-    .bg{
-      opacity: .5;
+    .bg {
+      opacity: 0.5;
     }
   }
-  #nav{
+  #nav {
     right: 30px;
     bottom: 30px;
-    #nav-flag{
+    #nav-flag {
       display: none;
     }
-    a{
-      li{
-        height: 100px;
-        line-height: 100px;
-        span{
+    a {
+      li {
+        height: 70px;
+        line-height: 70px;
+        margin: 10px 0;
+        span {
           color: #fff;
-          font-size: 80px;
+          font-size: 60px;
         }
-        &:hover{
-          .black{
+        &:hover {
+          .black {
             display: block!important;
           }
-          .white{
+          .white {
             display: none!important;
           }
         }

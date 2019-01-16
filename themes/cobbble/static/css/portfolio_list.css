@@ -260,12 +260,21 @@ body {
   float: right;
   width: 118px;
   height: 101px;
-  background-image: url(/image/a01501e2c0c78ce2906c23adfc0fca5b.png);
-  background-size: cover;
-  background-position: center;
 }
-.list-header #contact #talk-to-me:hover {
-  background-image: url(/image/e9734c33ccbbc5846af2695d0a137559.png);
+.list-header #contact #talk-to-me img {
+  height: 100%;
+}
+.list-header #contact #talk-to-me .talk-to-me {
+  display: block;
+}
+.list-header #contact #talk-to-me .talk-to-me-hover {
+  display: none;
+}
+.list-header #contact #talk-to-me:hover .talk-to-me {
+  display: none;
+}
+.list-header #contact #talk-to-me:hover .talk-to-me-hover {
+  display: block;
 }
 @media only screen and (max-width: 750px) {
   #social {

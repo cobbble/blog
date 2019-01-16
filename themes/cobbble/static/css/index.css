@@ -164,9 +164,9 @@ body {
   border-collapse: collapse;
 }
 
-html,
+#screen,
 body,
-#screen {
+html {
   width: 100%;
   height: 100%;
 }
@@ -179,7 +179,7 @@ body,
   height: 100%;
   float: left;
   position: relative;
-  background-image: url(/image/ab238d4242e9221f9828d9948ad72796.jpg);
+  background-image: url(/image/93c81686f83d8e1083957572d32a217b.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -215,56 +215,72 @@ body,
   float: right;
   width: 118px;
   height: 101px;
-  background-image: url(/image/a01501e2c0c78ce2906c23adfc0fca5b.png);
-  background-size: cover;
-  background-position: center;
 }
-#contact #talk-to-me:hover {
-  background-image: url(/image/e9734c33ccbbc5846af2695d0a137559.png);
+#contact #talk-to-me img {
+  height: 100%;
+}
+#contact #talk-to-me .talk-to-me {
+  display: block;
+}
+#contact #talk-to-me .talk-to-me-hover {
+  display: none;
+}
+#contact #talk-to-me:hover .talk-to-me {
+  display: none;
+}
+#contact #talk-to-me:hover .talk-to-me-hover {
+  display: block;
 }
 #nav {
   position: absolute;
   right: 55px;
-  bottom: 90px;
+  bottom: 55px;
   text-align: right;
   z-index: 101;
 }
 #nav li {
-  height: 125px;
-  line-height: 125px;
+  height: 90px;
+  line-height: 90px;
+  margin: 5px 0;
 }
 #nav li #nav-flag {
   height: 3px;
-  width: 70px;
+  width: 65px;
   float: right;
   background: #333;
-  margin-top: 75px;
+  margin-top: 50px;
+}
+#nav a {
+  display: block;
 }
 #nav a li span {
   color: #333;
-  font-size: 90px;
+  font-size: 70px;
   font-family: Futura-Bold;
 }
 #nav a li .black {
-  display: block;
+  display: inline-block;
 }
 #nav a li .white {
   display: none;
-  font-size: 72px;
+  font-size: 56px;
   color: #fff;
-  padding: 0 30px 0 35px;
+  padding: 0 20px 0 26px;
 }
 #nav a li .white.blog {
   background: #50e3c2;
 }
 #nav a li .white.work {
+  background: #aa84e9;
+}
+#nav a li .white.gallery {
   background: #fe96f8;
 }
 #nav a li:hover .black {
   display: none;
 }
 #nav a li:hover .white {
-  display: block;
+  display: inline-block;
 }
 #profile {
   width: 345px;
@@ -322,7 +338,7 @@ body,
     height: 70px;
   }
   #profile .bg {
-    opacity: .5;
+    opacity: 0.5;
   }
   #nav {
     right: 30px;
@@ -332,12 +348,13 @@ body,
     display: none;
   }
   #nav a li {
-    height: 100px;
-    line-height: 100px;
+    height: 70px;
+    line-height: 70px;
+    margin: 10px 0;
   }
   #nav a li span {
     color: #fff;
-    font-size: 80px;
+    font-size: 60px;
   }
   #nav a li:hover .black {
     display: block!important;

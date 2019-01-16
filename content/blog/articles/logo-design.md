@@ -8,7 +8,7 @@ title: 关于logo设计的二三言
 weight: 10
 slug: articles/logo-design
 cover: https://cdn.chelme.com/image/blog/articles/logo-design/cover.png
-description: 在互联网的产品中，吸引老年人用户群体曾经被认为是最后要考虑的事情。然而老年用户群体持续不断增长，在互联网用户中占据很大的比例。如果用户体验师在设计时遵循这些规则，用户体验绝不会差。
+description: Good Design is good business.
 categories:
   - ui
 tags:
